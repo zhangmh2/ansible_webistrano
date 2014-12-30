@@ -1,0 +1,12 @@
+---
+- name: Install Webistrano
+  hosts: webistrano-server
+  user: root
+  gather_facts: false
+  roles:
+    - common
+    - ruby
+    - mysql
+    - apache
+    - passenger
+    - webistrano

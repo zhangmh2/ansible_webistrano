@@ -1,0 +1,6 @@
+---
+webistrano_mysql_username: webistrano
+webistrano_mysql_password: webistrano
+webistrano_repo: "https://github.com/zhangmh2/webistrano.git"
+database_name: "webistrano_production"
+deploy_dir: /var/apps
